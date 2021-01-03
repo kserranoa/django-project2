@@ -8,3 +8,6 @@ class homepageview(TemplateView):
 
 class contactspageview(TemplateView):
     template_name = 'contacts.html'
+
+class shoespageview(TemplateView):
+    template_name = 'shoes.html'
